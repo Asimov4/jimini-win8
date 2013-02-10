@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAIO</Machine>
+    <WindowsUser>Marion</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>36E3274ED126CD0706927F24E73995FA7246A86277A1A2A014007CE5C58C115D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>cbea57c6-467a-40a2-a1a3-42335bb8e799_1.0.0.0_neutral__p4pnq9j09e7vt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>cbea57c6-467a-40a2-a1a3-42335bb8e799_p4pnq9j09e7vt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>cbea57c6-467a-40a2-a1a3-42335bb8e799</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=sseow</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-07T22:45:11.904</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\Jimini.exe">
+      <PackagePath>Jimini.exe</PackagePath>
+      <Modified>2013-02-10T03:03:32.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\Jimini.pdb">
+      <PackagePath>Jimini.pdb</PackagePath>
+      <Modified>2013-02-10T03:03:32.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\amazon.jpg">
+      <PackagePath>Assets\amazon.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal01.jpg">
+      <PackagePath>Assets\Animal01.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal02.jpg">
+      <PackagePath>Assets\Animal02.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal03.jpg">
+      <PackagePath>Assets\Animal03.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Flower01.jpg">
+      <PackagePath>Assets\Flower01.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Flower02.jpg">
+      <PackagePath>Assets\Flower02.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Flower03.jpg">
+      <PackagePath>Assets\Flower03.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Flower04.jpg">
+      <PackagePath>Assets\Flower04.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Flower05.jpg">
+      <PackagePath>Assets\Flower05.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Flower06.jpg">
+      <PackagePath>Assets\Flower06.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\google.jpg">
+      <PackagePath>Assets\google.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:29.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Shape01.jpg">
+      <PackagePath>Assets\Shape01.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:31.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Shape02.jpg">
+      <PackagePath>Assets\Shape02.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:31.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Shape03.jpg">
+      <PackagePath>Assets\Shape03.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:31.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Shape04.jpg">
+      <PackagePath>Assets\Shape04.jpg</PackagePath>
+      <Modified>2013-01-07T22:10:31.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\amazonicon.png">
+      <PackagePath>Assets\amazonicon.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal01.png">
+      <PackagePath>Assets\Animal01.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal02.png">
+      <PackagePath>Assets\Animal02.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal03.png">
+      <PackagePath>Assets\Animal03.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal04.png">
+      <PackagePath>Assets\Animal04.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal05.png">
+      <PackagePath>Assets\Animal05.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal06.png">
+      <PackagePath>Assets\Animal06.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal07.png">
+      <PackagePath>Assets\Animal07.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Animal08.png">
+      <PackagePath>Assets\Animal08.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\anteater.png">
+      <PackagePath>Assets\anteater.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\background.PNG">
+      <PackagePath>Assets\background.PNG</PackagePath>
+      <Modified>2013-01-07T22:10:29.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\background3.png">
+      <PackagePath>Assets\background3.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\bigimage.png">
+      <PackagePath>Assets\bigimage.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\camel.png">
+      <PackagePath>Assets\camel.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\deer.png">
+      <PackagePath>Assets\deer.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\flamingo.png">
+      <PackagePath>Assets\flamingo.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\googleplay.png">
+      <PackagePath>Assets\googleplay.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\horse.png">
+      <PackagePath>Assets\horse.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\itunes.png">
+      <PackagePath>Assets\itunes.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\itunesicon.png">
+      <PackagePath>Assets\itunesicon.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\jiminilogo.png">
+      <PackagePath>Assets\jiminilogo.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\llama.png">
+      <PackagePath>Assets\llama.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\logo150x150.png">
+      <PackagePath>Assets\logo150x150.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\logo30x30.png">
+      <PackagePath>Assets\logo30x30.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\logo620x300.png">
+      <PackagePath>Assets\logo620x300.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <Modified>2013-01-07T22:10:31.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2013-01-07T22:10:31.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-07T22:10:31.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-01-07T22:10:30.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-01-07T22:10:31.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-01-07T22:10:29.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\title.png">
+      <PackagePath>Assets\title.png</PackagePath>
+      <Modified>2013-01-07T22:10:32.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\logo150x150.png">
+      <PackagePath>logo150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-07T22:10:29.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\logo30x30.png">
+      <PackagePath>logo30x30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-07T22:10:29.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\logo620x300.png">
+      <PackagePath>logo620x300.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-07T22:10:29.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\horse.mp4">
+      <PackagePath>Assets\horse.mp4</PackagePath>
+      <Modified>2013-01-07T22:10:30.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\Assets\test.mp4">
+      <PackagePath>Assets\test.mp4</PackagePath>
+      <Modified>2013-01-07T22:10:32.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:28.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:35.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\DesignSelectionPage.xaml">
+      <PackagePath>DesignSelectionPage.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:28.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:28.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:28.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\LoginPage.xaml">
+      <PackagePath>LoginPage.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:29.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\PurchasePage.xaml">
+      <PackagePath>PurchasePage.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:29.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\VideoPage.xaml">
+      <PackagePath>VideoPage.xaml</PackagePath>
+      <Modified>2013-01-07T22:10:29.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Marion\Desktop\Thibaut\Jimini\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-01-07T22:45:11.537</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
