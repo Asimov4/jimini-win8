@@ -65,7 +65,7 @@
                 <StackPanel.Background>
                     <SolidColorBrush Color="#FF302F2F" Opacity="0.8"/>
                 </StackPanel.Background>
-                <TextBlock Text="■ login" 
+                <TextBlock Text="■ Wrap your link" 
                            FontFamily="Segoe UI Light" 
                            FontSize="50" 
                            FontWeight="Light"
@@ -75,7 +75,7 @@
                 <StackPanel Orientation="Horizontal">
                     <TextBlock 
                                 
-                                Text="username:" 
+                                Text="recipient:" 
                                Width="250" 
                                TextAlignment="Right" 
                                FontFamily="Segoe UI Light" 
@@ -91,14 +91,14 @@
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="0,25,0,0">
-                    <TextBlock Text="  password:" 
+                    <TextBlock Text="  link:" 
                                Margin="0
                                ,0,0,0"
                                Width="250" TextAlignment="Right" 
                                FontFamily="Segoe UI Light" 
                                FontSize="40" 
                                FontWeight="Light"/>
-                    <PasswordBox Margin="25,0,0,0" 
+                    <TextBox Margin="25,0,0,0" 
                                  Width="350" 
                                  FontFamily="Segoe UI Light" 
                                  FontSize="40" />
@@ -125,10 +125,10 @@
 
 
         </Grid>
+        <Image x:Name="qrCode"  HorizontalAlignment="Left" Height="100" Margin="1161,239,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
 
 
-        
-        
+
         <VisualStateManager.VisualStateGroups>
 
             <!-- Visual states reflect the application's view state -->
