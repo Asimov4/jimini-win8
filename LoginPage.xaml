@@ -65,24 +65,29 @@
                 <StackPanel.Background>
                     <SolidColorBrush Color="#FF302F2F" Opacity="0.8"/>
                 </StackPanel.Background>
-                <TextBlock Text="■ Wrap your link" 
-                           FontFamily="Segoe UI Light" 
-                           FontSize="50" 
-                           FontWeight="Light"
-                           Margin="50,30
-                           ,0,50"/>
-                
+                <TextBlock 
+            		FontFamily="Segoe UI Light" 
+            		FontSize="50" 
+            		FontWeight="Light"
+            		Margin="50,30                            ,0,50">
+            		<Run Text="■ Wrap your link"/>
+            		<LineBreak/>
+            		<Run FontSize="36" Text="Paste the link to the digital gift that you want "/>
+            		<LineBreak/>
+            		<Run FontSize="36" Text="to wrap here:"/>
+                </TextBlock>
+
                 <StackPanel Orientation="Horizontal">
                     <TextBlock 
                                 
-                                Text="recipient:" 
+                               Text="link:" 
                                Width="250" 
                                TextAlignment="Right" 
                                FontFamily="Segoe UI Light" 
                                FontWeight="Light"
                                FontSize="40" />
                     <TextBox
-                        Name="textBoxUsername"
+                        Name="textBoxLink"
                         Margin="25,0,0,0" Width="350" 
                              
                              FontWeight="Light"
@@ -90,21 +95,7 @@
                              FontSize="40" />
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal" Margin="0,25,0,0">
-                    <TextBlock Text="  link:" 
-                               Margin="0
-                               ,0,0,0"
-                               Width="250" TextAlignment="Right" 
-                               FontFamily="Segoe UI Light" 
-                               FontSize="40" 
-                               FontWeight="Light"/>
-                    <TextBox Margin="25,0,0,0" 
-                                 Width="350" 
-                                 FontFamily="Segoe UI Light" 
-                                 FontSize="40" />
-
-
-                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,25,0,0"/>
 
                 <Button 
                     Margin="579,40,0,0" x:Name="backButton" Click="GoBack" 
@@ -113,20 +104,11 @@
                         <RotateTransform Angle="180" CenterX="25" CenterY="25" />
                     </Button.RenderTransform>
                 </Button>
-
-                
-
-                <HyperlinkButton Content="■ create new account" 
-                                 Margin="40,40,0,0"
-                                 FontWeight="Light"
-                                 FontSize="30" Background="{x:Null}" Foreground="#FFFBFBFB"/>
             </StackPanel>
 
 
 
         </Grid>
-        <Image x:Name="qrCode"  HorizontalAlignment="Left" Height="100" Margin="1161,239,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
-
 
 
         <VisualStateManager.VisualStateGroups>

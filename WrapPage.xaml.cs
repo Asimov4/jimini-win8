@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.Media.Imaging;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
 
@@ -19,11 +20,11 @@ namespace Jimini
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class PurchasePage : Jimini.Common.LayoutAwarePage
+    public sealed partial class WrapPage : Jimini.Common.LayoutAwarePage
     {
 
 
-        public PurchasePage()
+        public WrapPage()
         {
             this.InitializeComponent();
         }
@@ -37,10 +38,17 @@ namespace Jimini
         /// </param>
         /// <param name="pageState">A dictionary of state preserved by this page during an earlier
         /// session.  This will be null the first time a page is visited.</param>
+        ///
+
+        private WriteableBitmap QrCodeWriteableBitmap;
+
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            string username = (String)navigationParameter;
-            pageTitle.Text = "Welcome, " + username;
+            string link = (String) navigationParameter;
+
+            ZXing.BarcodeWriter barcodeWriter = new ZXing.BarcodeWriter { Format = ZXing.BarcodeFormat.QR_CODE, Options = { Height = 500, Width = 500 } };
+            QrCodeWriteableBitmap = barcodeWriter.Write(link);
+            qrCode.Source = QrCodeWriteableBitmap;
         }
 
         /// <summary>
@@ -53,7 +61,7 @@ namespace Jimini
         {
         }
 
-        private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
+        private void GoNext(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(DesignSelectionPage), "AllGroups");
         }

@@ -36,14 +36,9 @@ namespace Jimini
         /// </param>
         /// <param name="pageState">A dictionary of state preserved by this page during an earlier
         /// session.  This will be null the first time a page is visited.</param>
-        private WriteableBitmap QrCodeWriteableBitmap;
 
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
-            this.InitializeComponent();
-            ZXing.BarcodeWriter barcodeWriter = new ZXing.BarcodeWriter { Format = ZXing.BarcodeFormat.QR_CODE };
-            QrCodeWriteableBitmap = barcodeWriter.Write("http://google.com");
-            qrCode.Source = QrCodeWriteableBitmap;
         }
 
         /// <summary>
@@ -58,9 +53,9 @@ namespace Jimini
 
         private void GoBack(object sender, RoutedEventArgs e)
         {
-            String username = textBoxUsername.Text;
+            String username = textBoxLink.Text;
 
-            this.Frame.Navigate(typeof(PurchasePage), textBoxUsername.Text);
+            this.Frame.Navigate(typeof(WrapPage), textBoxLink.Text);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="cbea57c6-467a-40a2-a1a3-42335bb8e799" Publisher="CN=sseow" Version="1.0.0.0" />
+  <Identity Name="cbea57c6-467a-40a2-a1a3-42335bb8e799" Publisher="CN=sseow" Version="1.0.0.1" />
   <Properties>
     <DisplayName>Jimini</DisplayName>
     <PublisherDisplayName>sseow</PublisherDisplayName>

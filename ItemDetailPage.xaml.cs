@@ -31,35 +31,7 @@ namespace Jimini
         public ItemDetailPage()
         {
             this.InitializeComponent();
-            timer1.Interval = TimeSpan.FromMilliseconds(500);
-            timer1.Tick += timer1_Tick;
-            timer2.Interval = TimeSpan.FromMilliseconds(500);
-            timer2.Tick += timer2_Tick;
 
-        }
-
-        void timer1_Tick(object sender, object e)
-        {
-            if (progress1.Value < 6)
-            {
-                progress1.Value++;
-            }
-            else
-            {
-                timer1.Stop();
-            }
-        }
-
-        void timer2_Tick(object sender, object e)
-        {
-            if (progress2.Value < 6)
-            {
-                progress2.Value++;
-            }
-            else
-            {
-                timer2.Stop();
-            }
         }
 
         /// <summary>
@@ -96,17 +68,6 @@ namespace Jimini
         {
             //var selectedItem = (SampleDataItem)this.flipView.SelectedItem;
             //pageState["SelectedItem"] = selectedItem.UniqueId;
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            timer1.Start();
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            timer2.Start();
-
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

@@ -71,27 +71,19 @@
             <Image Source="Assets/horse.png" Height="300" />
 
             <StackPanel Grid.Column="1">
-                <Button BorderThickness="0" Click="Button_Click_1">
-                <TextBlock Text="step ❶ print front page" 
-                           FontFamily="Segoe UI Light" 
-                           FontSize="45" 
-                           FontWeight="Light"
-                           Margin="0,0,0,50"/>
-                </Button>
-                <ProgressBar Name="progress1" 
-                             Maximum="5" Width="500"
-                             Height="20" Margin="0,0,50,150"/>
 
-                <Button BorderThickness="0" Click="Button_Click_2">
-                    <TextBlock Text="step ❷ print back page" 
-                           FontFamily="Segoe UI Light" 
-                           FontSize="45" 
-                           FontWeight="Light"
-                           Margin="0,0,0,50"/>
-                </Button>
-                <ProgressBar Name="progress2" 
-                             Maximum="5"  Width="500"
-                             Height="20" Margin="0,0,50,50"/>
+                <TextBlock 
+            		FontFamily="Segoe UI Light" 
+            		FontSize="45" 
+            		FontWeight="Light"
+            		Margin="0,0,0,50">
+            		<Run Text="You will now fold your printed "/>
+            		<LineBreak/>
+            		<Run Text="QR Code into the selected origami."/>
+            		<LineBreak/>
+            		<Run Text="To do this, follow the video:"/>
+                </TextBlock>
+
 
                 <Button 
                     Margin="600,0,0,0" Click="Button_Click_3" 
